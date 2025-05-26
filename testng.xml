@@ -7,7 +7,7 @@
 
         <classes>
             <class name="DemoTestNG.ConfigAnnotations_Datepickers"/>
-                <>
+
             <class name="DemoTestNG.ConfigAnnotations_List"/>
         </classes>
     </test>
