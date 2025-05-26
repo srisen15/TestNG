@@ -20,7 +20,7 @@ public class First_Automated_Test {
 
     @AfterMethod
     public void tearDown() {
-//    driver.quit();
+        driver.quit();
     }
 
     @Test(priority = 1)
