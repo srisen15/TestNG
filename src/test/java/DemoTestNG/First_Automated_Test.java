@@ -31,7 +31,7 @@ public class First_Automated_Test {
                         By.xpath("//div[@id='example_filter']//input[@type='search']"))
                 .sendKeys("A. Ramos");
         String searchResults = driver.findElement(By.xpath("//*[@id=\"example\"]/tbody/tr/td")).getText();
-       System.out.println(searchResults);
+        System.out.println(searchResults);
     }
     @Test(priority = 2)
     public void testBootstrapDatePicker() {
