@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" verbose="1" parallel="none">
+
+    <test name="TestNGExample">
+
+        <classes>
+            <class name="DemoTestNG.ConfigAnnotations_Datepickers"/>
+                <>
+            <class name="DemoTestNG.ConfigAnnotations_List"/>
+        </classes>
+    </test>
+
+</suite>
